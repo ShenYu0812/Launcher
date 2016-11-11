@@ -1,0 +1,24 @@
+<!--
+  ~  Copyright (c) 2016.  Project Launcher
+  ~  Source fragment_blank.xml
+  ~  Author 沈煜
+  ~  此源码及相关文档等附件由 沈煜 编写，作者保留所有权利
+  ~  使用必须注明出处。
+  ~  The code and documents is write by the author. All rights are reserved.
+  ~  Use must indicate the source.
+  ~
+  -->
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jiuzhou.porter.launcher.activity.BlankFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>

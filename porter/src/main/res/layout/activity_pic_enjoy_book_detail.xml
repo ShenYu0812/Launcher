@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2016.  Project Launcher
+  ~  Source activity_pic_enjoy_book_detail.xml
+  ~  Author 沈煜
+  ~  此源码及相关文档等附件由 沈煜 编写，作者保留所有权利
+  ~  使用必须注明出处。
+  ~  The code and documents is write by the author. All rights are reserved.
+  ~  Use must indicate the source.
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_pic_enjoy_book_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jiuzhou.porter.launcher.activity.PicEnjoyBookDetailActivity"
+    android:background="@mipmap/test_detail">
+
+</RelativeLayout>

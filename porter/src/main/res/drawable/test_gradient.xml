@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2016.  Project Launcher
+  ~  Source test_gradient.xml
+  ~  Author 沈煜
+  ~  此源码及相关文档等附件由 沈煜 编写，作者保留所有权利
+  ~  使用必须注明出处。
+  ~  The code and documents is write by the author. All rights are reserved.
+  ~  Use must indicate the source.
+  ~
+  -->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="line">
+    <solid android:color="@color/color1"/>
+    <gradient android:startColor="#3C6EDA" android:endColor="#00000000"
+        android:angle="90"/>
+</shape>

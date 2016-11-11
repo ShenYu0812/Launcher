@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/module_name"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/px_positive_50"
+        android:text="@string/module_name"
+        android:textColor="@color/color0"
+        android:textSize="@dimen/px_positive_45"
+        android:gravity="center"
+        android:layout_marginLeft="@dimen/px_positive_40"
+        android:layout_marginTop="@dimen/px_positive_25"
+        tools:ignore="RtlHardcoded" />
+</LinearLayout>

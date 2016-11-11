@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.open.androidtvwidget.view.TextViewWithTTF xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/tab_ttf"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/selector_module_pic_classify"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:gravity="center"
+    android:paddingRight="@dimen/px_positive_10"
+    android:paddingLeft="@dimen/px_positive_10"
+    android:layout_marginRight="@dimen/px_positive_5"
+    android:layout_marginLeft="@dimen/px_positive_5"
+    android:text="@string/detail_group_name"
+    style="@style/TabTextAppearance"
+    app:ttf_name="@string/detail_group_name" />

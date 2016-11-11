@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/book_relative"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.jiuzhou.porter.launcher.activity.PicLessonsActivity">
+
+    <include
+        layout="@layout/item_header"
+        android:id="@+id/module_header"/>
+
+    <com.jiuzhou.porter.launcher.widget.SimpleRecycleView
+        android:id="@+id/module_pic_m1_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_positive_215"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/px_positive_200"
+        android:layout_marginRight="@dimen/px_positive_200"
+        android:layout_marginBottom="@dimen/px_positive_80"
+        android:gravity="center"
+        android:descendantFocusability="afterDescendants"/>
+</RelativeLayout>

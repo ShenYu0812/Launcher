@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context="com.jiuzhou.porter.launcher.activity.PicEnjoyActivity"
+    android:background="@mipmap/module_pic_background">
+
+    <include
+        layout="@layout/item_header"
+        android:id="@+id/module_header"/>
+
+    <com.open.androidtvwidget.view.SmoothHorizontalScrollView
+        android:id="@+id/detail_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_positive_115"
+        android:layout_marginLeft="@dimen/px_positive_80"
+        android:layout_marginRight="@dimen/px_positive_80">
+
+        <com.open.androidtvwidget.view.OpenTabHost
+            android:id="@+id/detail_tab"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/px_positive_55"
+            android:layout_centerHorizontal="true" />
+
+    </com.open.androidtvwidget.view.SmoothHorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/detail_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>

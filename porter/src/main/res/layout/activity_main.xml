@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/home_background"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:focusable="false">
+
+    <com.open.androidtvwidget.view.SmoothHorizontalScrollView
+        android:id="@+id/home_scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <com.open.androidtvwidget.view.GridMainLayout
+            android:id="@+id/home_grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/px_positive_80"
+            android:layout_marginRight="@dimen/px_positive_80"
+            android:rowCount="2"
+            android:columnCount="7"
+            android:orientation="horizontal">
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module1"
+                android:layout_width="@dimen/px_positive_345"
+                android:layout_height="@dimen/px_positive_652"
+                android:layout_marginTop="@dimen/px_positive_270"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:layout_row="0"
+                android:layout_rowSpan="2"
+                android:layout_column="0"
+                app:isReflect="false"
+                app:isShape="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m1"
+                    android:contentDescription="@string/name_module1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module2"
+                android:layout_width="@dimen/px_positive_255"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginTop="@dimen/px_positive_270"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                tools:ignore="RtlHardcoded">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m2"
+                    android:contentDescription="@string/name_module2"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module2"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module3"
+                android:layout_width="@dimen/px_positive_255"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginTop="@dimen/px_positive_270"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m3"
+                    android:contentDescription="@string/name_module3"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module3"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module4"
+                android:layout_width="@dimen/px_positive_520"
+                android:layout_height="@dimen/px_positive_321"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:layout_marginTop="@dimen/px_positive_10"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_columnSpan="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m4"
+                    android:contentDescription="@string/name_module4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module4"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module5"
+                android:layout_width="@dimen/px_positive_345"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginTop="@dimen/px_positive_270"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_row="0">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m5"
+                    android:contentDescription="@string/name_module5"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module5"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module6"
+                android:layout_width="@dimen/px_positive_345"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginTop="@dimen/px_positive_10"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_row="1"
+                android:layout_column="3">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m6"
+                    android:contentDescription="@string/name_module6"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module6"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module7"
+                android:layout_width="@dimen/px_positive_520"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginTop="@dimen/px_positive_270"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_row="0"
+                android:layout_columnSpan="2">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m7"
+                    android:contentDescription="@string/name_module7"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:text="@string/name_module7"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module8"
+                android:layout_width="@dimen/px_positive_255"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:layout_marginTop="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_row="1"
+                android:layout_column="4">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m8"
+                    android:contentDescription="@string/name_module8"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center"
+                    android:text="@string/name_module8"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <com.open.androidtvwidget.view.ReflectLayout
+                android:id="@+id/module9"
+                android:layout_width="@dimen/px_positive_255"
+                android:layout_height="@dimen/px_positive_321"
+                android:layout_marginLeft="@dimen/px_positive_10"
+                android:layout_marginTop="@dimen/px_positive_10"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="true"
+                app:isReflect="false"
+                app:isShape="false"
+                android:layout_column="5">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/m9"
+                    android:contentDescription="@string/name_module9"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/px_positive_60"
+                    android:layout_gravity="bottom"
+                    android:background="#609AFF"
+                    android:gravity="center"
+                    android:text="@string/name_module9"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:visibility="invisible"/>
+            </com.open.androidtvwidget.view.ReflectLayout>
+
+            <FrameLayout
+                android:id="@+id/module10"
+                android:layout_width="2200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/px_positive_220"
+                android:layout_marginLeft="@dimen/px_positive_80"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:focusable="false"
+                android:layout_row="0"
+                android:layout_rowSpan="2">
+
+                <com.jiuzhou.porter.launcher.widget.SimpleRecycleView
+                    android:id="@+id/home_apps"
+                    android:layout_marginLeft="@dimen/px_positive_80"
+                    android:layout_marginRight="@dimen/px_positive_80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none" />
+            </FrameLayout>
+        </com.open.androidtvwidget.view.GridMainLayout>
+    </com.open.androidtvwidget.view.SmoothHorizontalScrollView>
+
+    <com.open.androidtvwidget.view.MainUpView
+        android:id="@+id/home_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:upImageRes="@drawable/home_main_focus" />
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Copyright (c) 2016.  Project Launcher
+  ~  Source item_grid_books3.xml
+  ~  Author 沈煜
+  ~  此源码及相关文档等附件由 沈煜 编写，作者保留所有权利
+  ~  使用必须注明出处。
+  ~  The code and documents is write by the author. All rights are reserved.
+  ~  Use must indicate the source.
+  ~
+  -->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/book_icon"
+        android:layout_width="@dimen/px_positive_380"
+        android:layout_height="@dimen/px_positive_385"
+        android:padding="@dimen/px_positive_20"
+        android:src="@mipmap/module_science_book1"
+        android:contentDescription="@null"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:background="@drawable/selector_home_apps"/>
+    
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="@dimen/px_positive_350"
+        android:layout_height="@dimen/px_positive_45"
+        android:layout_below="@+id/book_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/color0"
+        android:textSize="@dimen/px_positive_35"
+        android:text="@string/book_name"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:focusable="false"/>
+
+</RelativeLayout>

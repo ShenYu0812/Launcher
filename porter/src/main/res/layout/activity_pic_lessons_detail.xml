@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_pic_lessons_book_detail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/module_pic_detail_background">
+
+    <GridView
+        android:id="@+id/detail_grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/px_positive_152"
+        android:layout_marginLeft="@dimen/px_positive_285"
+        android:layout_marginRight="@dimen/px_positive_285"
+        android:numColumns="3"
+        android:descendantFocusability="afterDescendants"
+        android:scrollbars="none"/>
+</RelativeLayout>

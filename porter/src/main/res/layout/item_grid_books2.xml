@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/book_icon"
+        android:layout_width="@dimen/px_positive_470"
+        android:layout_height="@dimen/px_positive_570"
+        android:padding="@dimen/px_positive_25"
+        android:src="@mipmap/module_english_book1"
+        android:contentDescription="@null"
+        android:layout_centerHorizontal="true"
+        android:focusable="true"
+        android:background="@drawable/selector_home_apps"/>
+    
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="@dimen/px_positive_420"
+        android:layout_height="@dimen/px_positive_50"
+        android:layout_below="@+id/book_icon"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textColor="@color/color0"
+        android:textSize="@dimen/px_positive_40"
+        android:text="@string/book_name"
+        android:maxLines="1"
+        android:ellipsize="marquee"
+        android:focusable="false"/>
+
+</RelativeLayout>
